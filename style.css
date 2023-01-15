@@ -1,0 +1,123 @@
+/* Marcos Constantino - ArgentinaPrograma */
+header {
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    font-style: italic;
+    background-color: aliceblue;
+}
+
+#header-text {
+    text-decoration-line: underline;
+}
+
+nav{
+    background-color: darkred;
+}
+
+.nav-item,.nav-itemcenter{
+    padding: 1%;
+    text-decoration-line: none;
+    color: aliceblue;
+    transition: font-size 100ms;
+    font-size: large;
+   
+}
+
+.nav-itemcenter{
+    border-color: whitesmoke;
+    border-style: dotted;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.nav-item:hover{
+    font-size: x-large;
+    color: chocolate;
+}
+
+.nav-itemcenter:hover{
+    font-size: x-large;
+    color: chocolate;
+}
+
+footer{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.col-sm-2, .col-sm-4, .col-sm-6 {
+    background-color: azure;
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: bold;
+    border-width: 5px;
+    border-color:brown;
+    border-style: double;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 500ms;
+    transition: font-size 200ms;
+    font-size: larger;
+}
+
+.col-sm-2:hover, .col-sm-4:hover,.col-sm-6:hover{
+    background-color:cadetblue;
+    color: whitesmoke;
+    font-size: x-large;
+}
+
+h2{
+    margin-top: 3%;
+    text-align: center;
+}
+
+form{
+    margin: 6%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+input{
+    box-shadow:0 0 25px 24px rgba(25, 25, 25, 0.06);
+}
+
+#largo{
+    height:200px;
+}
+
+label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 1%;
+    padding-bottom: 0.2%;
+}
+
+button{
+    border: none;
+    block-size: 100%;
+    font-size: larger;
+    font-weight: 300;
+    border-radius: 5px;
+    margin-top: 1%;
+    background-color: lightblue;
+    color: black;
+    transition: color 1s;
+    transition: font-size 1s;
+    transition: background-color 1s; 
+    -o-transition: all;
+}
+
+button:hover{
+    color: whitesmoke;
+    font-size:xx-large;
+    background-color: black;
+    font-weight: 600;
+    block-size: 250%;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+
